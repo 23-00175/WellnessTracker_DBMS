@@ -153,6 +153,3 @@ The schema is visualized in `schema.png` within the `db` folder:
 [Back to Top](#project-overview)
 
 ---
-
-For any issues or contributions, feel free to create an issue or submit a pull request on GitHub.
-
