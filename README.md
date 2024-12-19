@@ -138,7 +138,7 @@ The `init.sql` file in the `db` folder is executed during the first run of the p
 
 The schema is visualized in `schema.png` within the `db` folder:
 
-![Database Schema](WellnessTracker_DBMS/db/schema.png)
+![Database Schema](db/schema.png)
 
 [Back to Top](#project-overview)
 
