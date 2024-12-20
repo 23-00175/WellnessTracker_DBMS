@@ -69,17 +69,4 @@ public class UsersDAO {
         return null;
     
     }
-
-    // Delete a user
-    public boolean deleteUser(String username) {
-        String sql = "DELETE FROM users WHERE Username = ?";
-        try (PreparedStatement stmt = connection.prepareStatement(sql)) {
-            stmt.setString(1, username);
-            int rowsDeleted = stmt.executeUpdate();
-            return rowsDeleted > 0;
-        } catch (SQLException e) {
-            System.out.println("Error deleting user: " + e.getMessage());
-            return false;
-        }
-    }
 }
